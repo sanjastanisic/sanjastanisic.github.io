@@ -1,12 +1,13 @@
 
 title: Resume
-url: 'http://sanjastanisic.com'
+description: Resume of Sanja Stanisic
+url: 'https://sanjastanisic.github.io/'
 baseurl: '/sanjastanisic.github.io' #change it according to your repository name
 
 # Profile information
 yourname: Sanja Stanišić
-title: 'PR &amp; Project Manager'  
-location: Monza, Italy
+title: 'PR &amp; Project Manager'
+location: Belgrade, Serbia
 
 ## Social Profiles
 facebook: http://www.facebook.com  ## your facebook account url
@@ -16,10 +17,11 @@ dribbble: http://www.dribble.com  ## you dribbble account url
 foursquare: http://www.foursquare.com  ## your foursquare account url
 
 # Google Analytics
-google_analytics: UA—121906363-1
-
-# Plugins
-plugins:
-  - jekyll-seo-tag
+analytics:
+  provider: "google-gtag"
+  google:
+#    measurement_id: "G-4Y3YWCKNH1"
+    measurement_id: "G-TCRJGF32LT"
+    anonymize_ip: # true, false (default)
 
 # Update all the sections by editing the files inside _includes folder.
